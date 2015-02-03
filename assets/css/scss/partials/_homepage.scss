@@ -1,0 +1,200 @@
+/*
+Homepage Style
+*/
+
+#homepage {
+//header
+.home-header {
+
+	height: 650px;
+	background-color: orange;
+	.background-image {
+		position: relative;
+		overflow: hidden;
+		height: 650px;
+		
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+		}
+
+	}	
+	.wrapper {
+		// padding: 100px 0 0 50px;
+		h1 {
+		width: 70%;
+		color: $eb-snowhite;
+		line-height: 60px;
+		position: absolute;
+		top: 140px;
+		left: 50px;
+		}
+	}
+
+}
+//header Ends
+
+//Description
+.description {
+	background-color: $eb-black;
+	.wrapper {
+		padding: 15px;
+	}
+	.col-xs-12 {
+		padding: 35px;
+	}
+
+	h3, 
+	.body-text {
+		color: $eb-snowhite;
+	}
+	h3 {
+		line-height: 35px;
+	}
+}
+//Description Ends
+
+// readiness-services
+.readiness-services {
+	.btn-white {
+	font-size: 1.5em;
+
+	}
+		h2, p {
+		color: $eb-snowhite;
+	}
+	.ready-wrap,
+	.asia-ready,
+	.nz-ready,
+	.overlay {
+		height: 560px;
+		padding: 0;
+		h2 {
+			font-size: 2.6em;
+		}
+	}
+	.ready-wrap {
+		position: relative;
+
+	}
+
+	.overlay,
+	.asia-ready,
+	.nz-ready {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top:0;
+	}
+	.overlay {
+		opacity: 0;
+		transition-duration: 0.5s;
+
+		background-color: $red-alpha-80;
+		padding: 110px 50px;
+		.text {
+			margin-top: 50px;
+		}
+		
+	} //overlay
+
+	.titles {
+		width: 100%;
+		position: absolute;
+		top: 150px;
+		left: 0;
+		opacity: 1;
+		transition-duration: 0.5s;
+		transition-property: all;
+
+	}
+	.title-box {
+		display: inline-block;
+		background-color: $main-red;
+		padding: 25px 35px;
+	}
+	.title-box-sub {
+		display: inline-block;
+		color: $eb-black;
+		padding: 25px 35px;
+		background-color: $snow-alpha-80;
+	}	
+
+	.asia-ready:hover .titles,
+	.nz-ready:hover .titles {
+		opacity: 0;
+		transition-duration: 0.5s;
+		transition-property: all;
+	}
+	.asia-ready:hover .overlay,
+	.nz-ready:hover .overlay{
+		opacity: 1;
+		transition-delay: 0.3s;
+		transition-duration: 0.4s;
+	}
+
+}
+
+// readiness-services Ends
+
+//Case Study
+.featured-case-study {
+	height: 485px;
+	.section-image,
+	.main-content {
+		height: 100%
+	}
+	.section-image {
+		overflow: hidden;
+		padding: 0;
+		zoom: 1%;
+		position:relative;
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			position: absolute;
+			right:0;
+			top: 0;
+		}
+	}
+	.main-content {
+		position: relative;
+	}
+	.section-logo {
+		background-color: $main-red;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 170px;
+		height: 60px;
+		padding: 17px 20px;
+		h3 {
+			color: $eb-snowhite;
+		}
+	}
+	.section-content {
+		margin-top: 100px;
+		padding-right: 80px;
+		h1 {
+			font-size: 3.5em;
+			margin-bottom: 35px;
+		}
+		.body-text {
+			margin-bottom: 25px;
+		}
+		.btn-black {
+			font-size: 1.5em;
+		}
+	}
+}
+//Case Study ENDs
+
+
+}

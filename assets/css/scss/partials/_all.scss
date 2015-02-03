@@ -1,0 +1,18 @@
+.svg {
+	display: inline-block;
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+
+.image-box {
+	height: auto;
+	img {
+		width: 100%;
+	}
+}
+.dotted-underline {
+	text-decoration: none;
+	border-bottom: 1px dotted $main-red;
+}

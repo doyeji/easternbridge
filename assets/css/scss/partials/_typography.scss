@@ -1,0 +1,75 @@
+$eb-serif: 'Roboto Slab', serif; //700
+$eb-sans: 'Raleway', sans-serif; //800, 400
+
+@mixin typo-sans ($size, $weight: 400) {
+	font-family: $eb-sans;
+	font-size: $size;
+	font-weight: $weight;
+}
+
+@mixin sans-400 ($size) {
+	font-size: $size;	
+	font-family: $eb-sans;
+	font-weight: 400;
+}
+
+@mixin sans-800 ($size) {
+	font-size: $size;	
+	font-family: $eb-sans;
+	font-weight: 800;
+}
+@mixin serif-700 ($size) {
+	font-size: $size;	
+	font-family: $eb-serif;
+	font-weight: 700;
+}
+
+.title {
+	font-family: $eb-sans;
+	font-weight: 800;
+}
+
+.jumbo-title {
+	@include serif-700(3.8em);
+}
+
+.intro-text {
+   	@include sans-400(2.1em);
+}
+.intro-text-sm {
+   	@include sans-400(1.4em);
+}
+.body-text {
+   	@include sans-400(1.3em);
+   	line-height: 30px;
+   	margin: 0;
+   	margin-top: 5px;
+}
+.md-text {
+   	@include sans-400(1.6em);
+   	line-height: 29px;
+}
+.text {
+   	@include sans-400(2.2em);
+
+}
+.grey-text {
+	color: $eb-lightgrey;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $eb-serif;
+	font-weight: 700;
+	margin: 0;
+}
+a {
+	color: $main-red;
+}
+a:hover {
+	color: $main-red;
+	text-decoration: none;
+}

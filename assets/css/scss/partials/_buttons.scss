@@ -1,0 +1,65 @@
+.view-details {
+	a {
+		text-decoration: none;
+	}
+	h2, 
+	.svg {
+		display: inline-block;
+	} 
+	.svg {
+		vertical-align: top;
+	}
+	h2 {
+		margin-right: 15px;
+	}
+}
+
+.btn {
+	border-radius: 0;
+}
+.btn-black {
+	border: 3px solid $eb-black;
+	padding: 8px 25px;
+	border-radius: 3px;
+	transition-property: all;
+	transition-duration: 0.3s;
+	a {
+		color: $eb-black;
+		font-family: $eb-serif;
+		font-weight: 800;
+	}
+}
+
+.btn-black:hover {
+	transition-property: all;
+	transition-duration: 0.3s;
+	background-color: $eb-black;
+	a {
+		color: $eb-snowhite;
+		text-decoration: none;
+	}
+}
+
+
+.btn-white {
+	border: 3px solid $eb-snowhite;
+	padding: 8px 25px;
+	border-radius: 3px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	a {
+		color: $eb-snowhite;
+		font-family: $eb-serif;
+		font-weight: 800;
+	}
+}
+
+.btn-white:hover {
+	transition-property: all;
+	transition-duration: 0.2s;
+	background-color: $eb-snowhite;
+	a {
+		color: $red-alpha-90;
+		text-decoration: none;
+	}
+}

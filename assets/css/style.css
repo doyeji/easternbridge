@@ -1,0 +1,923 @@
+/* line 27, scss/partials/_typography.scss */
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+/* line 32, scss/partials/_typography.scss */
+.jumbo-title {
+  font-size: 3.8em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+
+/* line 36, scss/partials/_typography.scss */
+.intro-text {
+  font-size: 2.1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+/* line 39, scss/partials/_typography.scss */
+.intro-text-sm {
+  font-size: 1.4em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+/* line 42, scss/partials/_typography.scss */
+.body-text {
+  font-size: 1.3em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* line 48, scss/partials/_typography.scss */
+.md-text {
+  font-size: 1.6em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+/* line 52, scss/partials/_typography.scss */
+.text {
+  font-size: 2.2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+/* line 56, scss/partials/_typography.scss */
+.grey-text {
+  color: #d8d4d5;
+}
+
+/* line 64, scss/partials/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* line 69, scss/partials/_typography.scss */
+a {
+  color: #b6252c;
+}
+
+/* line 72, scss/partials/_typography.scss */
+a:hover {
+  color: #b6252c;
+  text-decoration: none;
+}
+
+/* line 2, scss/partials/_buttons.scss */
+.view-details a {
+  text-decoration: none;
+}
+/* line 6, scss/partials/_buttons.scss */
+.view-details h2,
+.view-details .svg {
+  display: inline-block;
+}
+/* line 9, scss/partials/_buttons.scss */
+.view-details .svg {
+  vertical-align: top;
+}
+/* line 12, scss/partials/_buttons.scss */
+.view-details h2 {
+  margin-right: 15px;
+}
+
+/* line 17, scss/partials/_buttons.scss */
+.btn {
+  border-radius: 0;
+}
+
+/* line 20, scss/partials/_buttons.scss */
+.btn-black {
+  border: 3px solid #352c2c;
+  padding: 8px 25px;
+  border-radius: 3px;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+/* line 26, scss/partials/_buttons.scss */
+.btn-black a {
+  color: #352c2c;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+}
+
+/* line 33, scss/partials/_buttons.scss */
+.btn-black:hover {
+  transition-property: all;
+  transition-duration: 0.3s;
+  background-color: #352c2c;
+}
+/* line 37, scss/partials/_buttons.scss */
+.btn-black:hover a {
+  color: #fffbf7;
+  text-decoration: none;
+}
+
+/* line 44, scss/partials/_buttons.scss */
+.btn-white {
+  border: 3px solid #fffbf7;
+  padding: 8px 25px;
+  border-radius: 3px;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+/* line 50, scss/partials/_buttons.scss */
+.btn-white a {
+  color: #fffbf7;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+}
+
+/* line 57, scss/partials/_buttons.scss */
+.btn-white:hover {
+  transition-property: all;
+  transition-duration: 0.2s;
+  background-color: #fffbf7;
+}
+/* line 61, scss/partials/_buttons.scss */
+.btn-white:hover a {
+  color: rgba(182, 37, 44, 0.9);
+  text-decoration: none;
+}
+
+/* line 1, scss/partials/_all.scss */
+.svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 5, scss/partials/_all.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 9, scss/partials/_all.scss */
+.image-box {
+  height: auto;
+}
+/* line 11, scss/partials/_all.scss */
+.image-box img {
+  width: 100%;
+}
+
+/* line 15, scss/partials/_all.scss */
+.dotted-underline {
+  text-decoration: none;
+  border-bottom: 1px dotted #b6252c;
+}
+
+/*
+Homepage Style
+*/
+/* line 7, scss/partials/_homepage.scss */
+#homepage .home-header {
+  height: 650px;
+  background-color: orange;
+}
+/* line 11, scss/partials/_homepage.scss */
+#homepage .home-header .background-image {
+  position: relative;
+  overflow: hidden;
+  height: 650px;
+}
+/* line 16, scss/partials/_homepage.scss */
+#homepage .home-header .background-image img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+/* line 29, scss/partials/_homepage.scss */
+#homepage .home-header .wrapper h1 {
+  width: 70%;
+  color: #fffbf7;
+  line-height: 60px;
+  position: absolute;
+  top: 140px;
+  left: 50px;
+}
+/* line 43, scss/partials/_homepage.scss */
+#homepage .description {
+  background-color: #352c2c;
+}
+/* line 45, scss/partials/_homepage.scss */
+#homepage .description .wrapper {
+  padding: 15px;
+}
+/* line 48, scss/partials/_homepage.scss */
+#homepage .description .col-xs-12 {
+  padding: 35px;
+}
+/* line 53, scss/partials/_homepage.scss */
+#homepage .description h3,
+#homepage .description .body-text {
+  color: #fffbf7;
+}
+/* line 56, scss/partials/_homepage.scss */
+#homepage .description h3 {
+  line-height: 35px;
+}
+/* line 64, scss/partials/_homepage.scss */
+#homepage .readiness-services .btn-white {
+  font-size: 1.5em;
+}
+/* line 68, scss/partials/_homepage.scss */
+#homepage .readiness-services h2, #homepage .readiness-services p {
+  color: #fffbf7;
+}
+/* line 74, scss/partials/_homepage.scss */
+#homepage .readiness-services .ready-wrap,
+#homepage .readiness-services .asia-ready,
+#homepage .readiness-services .nz-ready,
+#homepage .readiness-services .overlay {
+  height: 560px;
+  padding: 0;
+}
+/* line 77, scss/partials/_homepage.scss */
+#homepage .readiness-services .ready-wrap h2,
+#homepage .readiness-services .asia-ready h2,
+#homepage .readiness-services .nz-ready h2,
+#homepage .readiness-services .overlay h2 {
+  font-size: 2.6em;
+}
+/* line 81, scss/partials/_homepage.scss */
+#homepage .readiness-services .ready-wrap {
+  position: relative;
+}
+/* line 88, scss/partials/_homepage.scss */
+#homepage .readiness-services .overlay,
+#homepage .readiness-services .asia-ready,
+#homepage .readiness-services .nz-ready {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 94, scss/partials/_homepage.scss */
+#homepage .readiness-services .overlay {
+  opacity: 0;
+  transition-duration: 0.5s;
+  background-color: rgba(182, 37, 44, 0.8);
+  padding: 110px 50px;
+}
+/* line 100, scss/partials/_homepage.scss */
+#homepage .readiness-services .overlay .text {
+  margin-top: 50px;
+}
+/* line 106, scss/partials/_homepage.scss */
+#homepage .readiness-services .titles {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 116, scss/partials/_homepage.scss */
+#homepage .readiness-services .title-box {
+  display: inline-block;
+  background-color: #b6252c;
+  padding: 25px 35px;
+}
+/* line 121, scss/partials/_homepage.scss */
+#homepage .readiness-services .title-box-sub {
+  display: inline-block;
+  color: #352c2c;
+  padding: 25px 35px;
+  background-color: rgba(255, 251, 247, 0.8);
+}
+/* line 129, scss/partials/_homepage.scss */
+#homepage .readiness-services .asia-ready:hover .titles,
+#homepage .readiness-services .nz-ready:hover .titles {
+  opacity: 0;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 135, scss/partials/_homepage.scss */
+#homepage .readiness-services .asia-ready:hover .overlay,
+#homepage .readiness-services .nz-ready:hover .overlay {
+  opacity: 1;
+  transition-delay: 0.3s;
+  transition-duration: 0.4s;
+}
+/* line 146, scss/partials/_homepage.scss */
+#homepage .featured-case-study {
+  height: 485px;
+}
+/* line 149, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-image,
+#homepage .featured-case-study .main-content {
+  height: 100%;
+}
+/* line 152, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-image {
+  overflow: hidden;
+  padding: 0;
+  zoom: 1%;
+  position: relative;
+}
+/* line 157, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-image img {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 167, scss/partials/_homepage.scss */
+#homepage .featured-case-study .main-content {
+  position: relative;
+}
+/* line 170, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-logo {
+  background-color: #b6252c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 60px;
+  padding: 17px 20px;
+}
+/* line 178, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-logo h3 {
+  color: #fffbf7;
+}
+/* line 182, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-content {
+  margin-top: 100px;
+  padding-right: 80px;
+}
+/* line 185, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-content h1 {
+  font-size: 3.5em;
+  margin-bottom: 35px;
+}
+/* line 189, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-content .body-text {
+  margin-bottom: 25px;
+}
+/* line 192, scss/partials/_homepage.scss */
+#homepage .featured-case-study .section-content .btn-black {
+  font-size: 1.5em;
+}
+
+/*-----------------------
+	Main-pages Specifics 
+-------------------------*/
+/* line 5, scss/partials/_main-pages.scss */
+.main-pages .background-image {
+  position: relative;
+  overflow: hidden;
+}
+/* line 8, scss/partials/_main-pages.scss */
+.main-pages .background-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+/* line 18, scss/partials/_main-pages.scss */
+.main-pages .pages-header {
+  height: 360px;
+  background-color: orange;
+}
+/* line 21, scss/partials/_main-pages.scss */
+.main-pages .pages-header .background-image {
+  height: 360px;
+}
+/* line 26, scss/partials/_main-pages.scss */
+.main-pages .red-text-wrap {
+  position: absolute;
+  background-color: #b6252c;
+  display: inline-block;
+  padding: 50px 50px 35px 50px;
+  top: 125px;
+}
+/* line 32, scss/partials/_main-pages.scss */
+.main-pages .red-text-wrap h1, .main-pages .red-text-wrap p {
+  margin: 0;
+  color: #fffbf7;
+}
+/* line 36, scss/partials/_main-pages.scss */
+.main-pages .red-text-wrap .jumbo-title {
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+/* line 40, scss/partials/_main-pages.scss */
+.main-pages .red-text-wrap p {
+  font-size: 1.7em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+/* line 49, scss/partials/_main-pages.scss */
+.main-pages .description .wrapper {
+  padding: 65px 50px;
+  padding-right: 250px;
+}
+
+/*-------------------------------
+	asia-ready-page Specifics 
+----------------------------------*/
+/* line 62, scss/partials/_main-pages.scss */
+.main-body .section-title {
+  margin-bottom: 31px;
+}
+/* line 64, scss/partials/_main-pages.scss */
+.main-body .section-title h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.8em;
+}
+/* line 69, scss/partials/_main-pages.scss */
+.main-body .md-text {
+  margin-bottom: 25px;
+}
+/* line 72, scss/partials/_main-pages.scss */
+.main-body .section-wrapper {
+  display: inline-block;
+  float: left;
+  padding-left: 50px;
+  border-left: 22px solid #b6252c;
+}
+
+/* line 83, scss/partials/_main-pages.scss */
+#asia-ready-page .how-it-works,
+#asia-ready-page .biz-org {
+  margin-bottom: 100px;
+}
+/* line 86, scss/partials/_main-pages.scss */
+#asia-ready-page .image-box {
+  display: inline-block;
+  float: right;
+  width: 35%;
+  max-height: 380px;
+  margin-left: 8.680555555556%;
+  overflow: hidden;
+}
+/* line 94, scss/partials/_main-pages.scss */
+#asia-ready-page .ready-wrap {
+  padding: 0;
+  overflow: hidden;
+}
+/* line 97, scss/partials/_main-pages.scss */
+#asia-ready-page .ready-wrap .title-big {
+  color: #fffbf7;
+}
+/* line 102, scss/partials/_main-pages.scss */
+#asia-ready-page .how-it-works .section-wrapper {
+  width: 56%;
+}
+/* line 107, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap {
+  height: 516.42px;
+}
+/* line 109, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap .background-image {
+  height: 516.42px;
+}
+/* line 113, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .section-wrapper {
+  width: 80%;
+}
+/* line 116, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org li.md-text {
+  margin-bottom: 0;
+  list-style: none;
+}
+/* line 122, scss/partials/_main-pages.scss */
+#asia-ready-page .services .ready-wrap {
+  height: 430px;
+}
+/* line 125, scss/partials/_main-pages.scss */
+#asia-ready-page .services .section-wrapper {
+  width: 100%;
+  margin-bottom: 25px;
+}
+/* line 131, scss/partials/_main-pages.scss */
+#asia-ready-page .overlay {
+  padding: 25px;
+  background-color: rgba(182, 37, 44, 0.9);
+  height: 100%;
+}
+/* line 136, scss/partials/_main-pages.scss */
+#asia-ready-page .overlay h2,
+#asia-ready-page .overlay .text {
+  color: #fffbf7;
+  font-size: 1.5em;
+}
+/* line 143, scss/partials/_main-pages.scss */
+#asia-ready-page .btn-white {
+  font-size: 1.5em;
+}
+/* line 151, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap,
+#asia-ready-page .services .ready-wrap {
+  position: relative;
+}
+/* line 153, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap .titles,
+#asia-ready-page .services .ready-wrap .titles {
+  position: absolute;
+  z-index: 2;
+}
+/* line 156, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap .titles .title-big,
+#asia-ready-page .services .ready-wrap .titles .title-big {
+  display: inline-block;
+  padding: 0 8px 15px 8px;
+}
+/* line 162, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .overlay,
+#asia-ready-page .services .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+/* line 172, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .titles {
+  top: 130px;
+  width: 100%;
+  text-align: center;
+}
+/* line 176, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .titles .title-big {
+  border-bottom: 4px solid #fffbf7;
+  font-size: 3.9em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+/* line 182, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .overlay .text {
+  margin-top: 200px;
+  margin-bottom: 25px;
+}
+/* line 189, scss/partials/_main-pages.scss */
+#asia-ready-page .services img {
+  width: 100%;
+  height: auto;
+}
+/* line 193, scss/partials/_main-pages.scss */
+#asia-ready-page .services .titles {
+  top: 25px;
+  left: 25px;
+}
+/* line 196, scss/partials/_main-pages.scss */
+#asia-ready-page .services .titles .title-big {
+  font-size: 2.7em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #352c2c;
+}
+/* line 199, scss/partials/_main-pages.scss */
+#asia-ready-page .services .titles .title-big span {
+  display: block;
+}
+/* line 203, scss/partials/_main-pages.scss */
+#asia-ready-page .services .titles .number-big {
+  color: #d8d4d5;
+  font-size: 5.2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+/* line 209, scss/partials/_main-pages.scss */
+#asia-ready-page .services .overlay .text {
+  margin-top: 105px;
+  margin-bottom: 25px;
+  font-size: 1.4em;
+  letter-spacing: 0.6px;
+}
+/* line 215, scss/partials/_main-pages.scss */
+#asia-ready-page .services .overlay .btn-black {
+  font-size: 1.3em;
+}
+/* line 228, scss/partials/_main-pages.scss */
+#asia-ready-page .section .ready-wrap .titles {
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 233, scss/partials/_main-pages.scss */
+#asia-ready-page .section .ready-wrap .overlay {
+  transition-duration: 0.5s;
+  transition-property: all;
+  opacity: 0;
+}
+/* line 246, scss/partials/_main-pages.scss */
+#asia-ready-page .services .ready-wrap .title-big,
+#asia-ready-page .services .ready-wrap .number-big {
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 254, scss/partials/_main-pages.scss */
+#asia-ready-page .ready-wrap:hover .overlay {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 262, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap:hover .titles {
+  top: 90px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 267, scss/partials/_main-pages.scss */
+#asia-ready-page .biz-org .ready-wrap:hover .overlay {
+  transition-delay: 0.5s;
+}
+/* line 275, scss/partials/_main-pages.scss */
+#asia-ready-page .services .ready-wrap:hover .title-big {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 2em;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 285, scss/partials/_main-pages.scss */
+#asia-ready-page .services .ready-wrap:hover .number-big {
+  color: #fffbf7;
+  display: inline-block;
+  font-size: 3.5em;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 292, scss/partials/_main-pages.scss */
+#asia-ready-page .services .ready-wrap:hover .overlay {
+  transition-delay: 0.4s;
+}
+
+/*
+New Zealand Ready Page
+*/
+/* line 305, scss/partials/_main-pages.scss */
+#nz-ready-page .how-it-works {
+  margin-bottom: 50px;
+}
+/* line 307, scss/partials/_main-pages.scss */
+#nz-ready-page .how-it-works .section-wrapper {
+  width: 75%;
+}
+/* line 314, scss/partials/_main-pages.scss */
+#nz-ready-page .services img {
+  width: auto;
+  height: auto;
+}
+/* line 318, scss/partials/_main-pages.scss */
+#nz-ready-page .services .ready-wrap {
+  height: auto;
+  padding: 0;
+  position: relative;
+}
+/* line 323, scss/partials/_main-pages.scss */
+#nz-ready-page .services .titles {
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  left: 25px;
+}
+/* line 329, scss/partials/_main-pages.scss */
+#nz-ready-page .services .overlay {
+  background-color: rgba(182, 37, 44, 0.95);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: auto;
+  padding: 25px 25px 45px 25px;
+}
+/* line 339, scss/partials/_main-pages.scss */
+#nz-ready-page .services .text {
+  font-size: 1.4em;
+  margin-top: 145px;
+  margin-bottom: 35px;
+}
+/* line 345, scss/partials/_main-pages.scss */
+#nz-ready-page .services .text,
+#nz-ready-page .services .number-big {
+  color: #fffbf7;
+}
+/* line 348, scss/partials/_main-pages.scss */
+#nz-ready-page .services .number-big {
+  font-size: 5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+/* line 351, scss/partials/_main-pages.scss */
+#nz-ready-page .services .title-big {
+  font-size: 2.7em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+/* line 353, scss/partials/_main-pages.scss */
+#nz-ready-page .services .title-big span {
+  display: block;
+}
+/* line 357, scss/partials/_main-pages.scss */
+#nz-ready-page .services .btn-white {
+  font-size: 1.2em;
+}
+/* line 365, scss/partials/_main-pages.scss */
+#nz-ready-page .section .ready-wrap .titles {
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 370, scss/partials/_main-pages.scss */
+#nz-ready-page .section .ready-wrap .overlay {
+  transition-duration: 0.5s;
+  transition-property: all;
+  opacity: 0;
+}
+/* line 381, scss/partials/_main-pages.scss */
+#nz-ready-page .services .ready-wrap .title-big,
+#nz-ready-page .services .ready-wrap .number-big {
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 388, scss/partials/_main-pages.scss */
+#nz-ready-page .ready-wrap:hover .overlay {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 396, scss/partials/_main-pages.scss */
+#nz-ready-page .services .ready-wrap:hover .title-big {
+  color: #d8d4d5;
+  font-size: 2em;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 403, scss/partials/_main-pages.scss */
+#nz-ready-page .services .ready-wrap:hover .number-big {
+  color: #352c2c;
+  font-size: 3.5em;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+/* line 409, scss/partials/_main-pages.scss */
+#nz-ready-page .services .ready-wrap:hover .overlay {
+  transition-delay: 0.4s;
+}
+
+/*
+About us 
+*/
+/* line 5, scss/partials/_about-page.scss */
+#about-us-page .main-contents-section {
+  margin-bottom: 100px;
+}
+/* line 8, scss/partials/_about-page.scss */
+#about-us-page .section {
+  margin-top: 100px;
+}
+/* line 11, scss/partials/_about-page.scss */
+#about-us-page .section-description {
+  margin-right: 100px;
+}
+
+/*
+For businesses page 
+*/
+/* line 22, scss/partials/_about-page.scss */
+#for-business-page .section {
+  margin-bottom: 100px;
+}
+/* line 25, scss/partials/_about-page.scss */
+#for-business-page .fit-your-needs {
+  width: 90%;
+}
+/* line 28, scss/partials/_about-page.scss */
+#for-business-page .fit-your-needs .section-title h1 {
+  margin-bottom: 10px;
+}
+
+/* line 1, scss/partials/_footer.scss */
+.newsletter {
+  background-color: #7ba2a7;
+  padding: 40px 35px;
+}
+/* line 4, scss/partials/_footer.scss */
+.newsletter h1, .newsletter h3 {
+  color: white;
+}
+/* line 7, scss/partials/_footer.scss */
+.newsletter .section {
+  padding: 0;
+}
+/* line 10, scss/partials/_footer.scss */
+.newsletter input[type=submit] {
+  width: 189px;
+  height: 61px;
+  background-color: #352c2c;
+  font-size: 2em;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+}
+/* line 18, scss/partials/_footer.scss */
+.newsletter input[type=submit] input[type=text] {
+  width: 785.199px;
+  height: 61px;
+  border: none;
+}
+
+/* line 29, scss/partials/_footer.scss */
+.social-link h3,
+.newsletter h3 {
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+/* line 36, scss/partials/_footer.scss */
+.footer-nav .wrapper {
+  padding: 65px 35px 55px 35px;
+}
+/* line 40, scss/partials/_footer.scss */
+.footer-nav .section {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 100px;
+}
+/* line 44, scss/partials/_footer.scss */
+.footer-nav .section h4 {
+  margin-bottom: 15px;
+}
+/* line 48, scss/partials/_footer.scss */
+.footer-nav .social-link {
+  margin-top: 15px;
+  padding-right: 125px;
+}
+/* line 53, scss/partials/_footer.scss */
+.footer-nav ul {
+  padding: 0;
+}
+/* line 56, scss/partials/_footer.scss */
+.footer-nav li {
+  list-style: none;
+}
+/* line 58, scss/partials/_footer.scss */
+.footer-nav li a {
+  color: #352c2c;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+/* line 63, scss/partials/_footer.scss */
+.footer-nav li:before {
+  content: "> ";
+  width: 1.2em;
+}
+/* line 67, scss/partials/_footer.scss */
+.footer-nav .contact {
+  padding-right: 0;
+}
+/* line 69, scss/partials/_footer.scss */
+.footer-nav .contact h4 {
+  margin-bottom: 15px;
+}
+/* line 72, scss/partials/_footer.scss */
+.footer-nav .contact p {
+  line-height: 15px;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+/* line 79, scss/partials/_footer.scss */
+.copy {
+  background-color: #352c2c;
+  padding: 15px 25px;
+}
+/* line 82, scss/partials/_footer.scss */
+.copy p {
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #fffbf7;
+  margin: 0;
+}

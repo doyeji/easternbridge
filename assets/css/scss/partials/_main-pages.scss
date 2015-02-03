@@ -1,0 +1,415 @@
+/*-----------------------
+	Main-pages Specifics 
+-------------------------*/
+.main-pages {
+.background-image {
+	position: relative;
+	overflow: hidden;
+	img {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: auto;
+	}
+
+}
+//header
+.pages-header {
+	height: 360px;
+	background-color: orange;
+	.background-image {
+	height: 360px;
+	}
+}
+
+.red-text-wrap {
+	position: absolute;
+	background-color: $main-red;
+	display: inline-block;
+	padding: 50px 50px 35px 50px;
+	top: 125px;
+	h1, p {
+		margin: 0;
+		color: $eb-snowhite;
+	}
+	.jumbo-title {
+		line-height: 34px;
+		margin-bottom: 15px;
+	}
+	p {
+		@include sans-400(1.7em);
+	}
+}
+
+//header ENDs
+
+//description
+.description {
+	.wrapper {
+		padding: 65px 50px;
+		padding-right: 250px;		
+	}
+}
+//description ENDs
+
+}
+
+/*-------------------------------
+	asia-ready-page Specifics 
+----------------------------------*/
+.main-body{
+		.section-title {
+		margin-bottom: 31px;
+		h1 {
+			font-family: $eb-sans;
+			font-size: 2.8em;
+		}
+	}
+	.md-text {
+		margin-bottom: 25px;
+	}
+	.section-wrapper {
+		display: inline-block;
+		float: left;
+		padding-left: 50px;
+		border-left: 22px solid $main-red;
+	}
+
+}
+
+#asia-ready-page {
+	.how-it-works,
+	.biz-org {
+		margin-bottom: 100px;
+	}
+	.image-box {
+		display: inline-block;
+		float: right;
+		width: 35%;
+		max-height: 380px;
+		margin-left: 8.680555555556%;
+		overflow: hidden;
+	}
+	.ready-wrap {
+		padding: 0;
+		overflow: hidden;
+		.title-big {
+			color: $eb-snowhite;
+		}
+	}
+.how-it-works {
+	.section-wrapper {
+		width: 56%;
+	}
+}
+.biz-org {
+	.ready-wrap {
+		height: 516.42px;
+		.background-image {
+			height: 516.42px;
+		}
+	}
+	.section-wrapper {
+		width: 80%;
+	}
+	li.md-text {
+		margin-bottom: 0;
+		list-style: none;
+	}
+}
+.services {
+	.ready-wrap {
+		height: 430px;
+	}
+	.section-wrapper {
+		width: 100%;
+		margin-bottom: 25px;
+	}
+}
+
+.overlay {
+	padding: 25px;
+	background-color: $red-alpha-90;
+	height: 100%;
+	h2, 
+	.text {
+		color: $eb-snowhite;
+		font-size: 1.5em;
+		
+	} 
+	
+}
+.btn-white {
+	font-size: 1.5em;
+}
+//overlay setup	
+
+//positions
+.biz-org,
+.services { 
+	.ready-wrap {
+		position: relative;
+		.titles {
+			position: absolute; 
+			z-index: 2;
+			.title-big {
+				display: inline-block;
+				padding: 0 8px 15px 8px;
+			}
+		}
+	}
+	.overlay {
+		position: absolute;
+		top:0;
+		left: 0;
+		z-index: 1;
+	}
+}
+
+//styling
+.biz-org {
+	.titles {
+		top: 130px;
+		width: 100%;
+		text-align: center;
+		.title-big {
+			border-bottom: 4px solid $eb-snowhite;
+			@include sans-800(3.9em);
+		}
+	}
+	.overlay {
+		.text {
+			margin-top: 200px;
+			margin-bottom: 25px;
+		}
+	}
+}
+.services {
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.titles {
+		top: 25px;
+		left: 25px;
+		.title-big {
+			@include sans-800(2.7em);
+			color: $eb-black;
+			span {
+				display: block;
+			}
+		}
+		.number-big {
+			color: $eb-lightgrey;
+			@include sans-800(5.2em);
+		}
+	}
+	.overlay {
+		.text {
+			margin-top: 105px;
+			margin-bottom: 25px;
+			font-size: 1.4em;
+			letter-spacing: 0.6px;
+		}
+		.btn-black {
+			font-size: 1.3em;
+		}
+	}
+
+}
+
+
+//hover-state animation set up
+
+.section {
+//ready-wrap start state
+.ready-wrap {
+	.titles {
+		transition-duration: 0.5s;
+		transition-property: all;
+	}
+
+	.overlay {
+		transition-duration: 0.5s;
+		transition-property: all;
+		opacity: 0;
+	}
+
+	
+}	
+
+}
+.services {
+	.ready-wrap {
+		.title-big,
+		.number-big {
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+	}
+}
+
+.ready-wrap:hover {
+	.overlay {
+		opacity: 1;
+		transition-duration: 0.5s;
+		transition-property: all;
+	}
+}
+.biz-org {
+	.ready-wrap:hover {
+		.titles {
+			top: 90px;
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+		.overlay {
+			transition-delay: 0.5s;
+		}
+	}
+}
+
+.services {
+	.ready-wrap:hover {
+		.title-big {
+			vertical-align: top;
+
+			// color: $eb-snowhite;
+			display: inline-block;
+			font-size: 2em;
+			letter-spacing: 1px;
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+		.number-big {
+			color: $eb-snowhite;
+			display: inline-block;
+			font-size: 3.5em;
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+		.overlay {
+			transition-delay: 0.4s;
+		}
+	}
+}
+
+//
+}
+
+/*
+New Zealand Ready Page
+*/
+#nz-ready-page {
+.how-it-works {
+	margin-bottom: 50px;
+	.section-wrapper {
+		width: 75%;
+	}
+}//Ends
+
+.services {
+	//position set up
+	img {
+		width: auto;
+		height: auto;
+	}
+	.ready-wrap {
+		height: auto;
+		padding: 0;
+		position: relative;
+	}
+	.titles {
+		position: absolute;
+		z-index: 1;
+		top: 25px;
+		left: 25px;
+	}
+	.overlay {
+		background-color: $red-alpha-95;
+		position: absolute;
+		top:0;
+		left: 0;
+		z-index: 2;
+		height: auto;
+		padding: 25px 25px 45px 25px; 
+	}
+
+	.text {
+		font-size: 1.4em;
+		margin-top: 145px;
+		margin-bottom: 35px;
+	}
+	.text,
+	.number-big {
+		color: $eb-snowhite;			
+	}
+	.number-big {
+		@include sans-800(5em);
+	}
+	.title-big{
+		@include sans-800(2.7em);
+		span {
+			display: block;
+		}
+	}
+	.btn-white {
+		font-size: 1.2em;
+	}
+}//Ends
+
+.section {
+	//ready-wrap start state
+	.ready-wrap {
+		.titles {
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+
+		.overlay {
+			transition-duration: 0.5s;
+			transition-property: all;
+			opacity: 0;
+		}
+	}	
+}//Ends
+
+.services {
+	.ready-wrap {
+		.title-big,
+		.number-big {
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+	}
+}//Ends
+.ready-wrap:hover {
+	.overlay {
+		opacity: 1;
+		transition-duration: 0.5s;
+		transition-property: all;
+	}
+}//Ends
+.services {
+	.ready-wrap:hover {
+		.title-big {
+			color: $eb-lightgrey;
+			font-size: 2em;
+			letter-spacing: 1px;
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+		.number-big {
+			color: $eb-black;
+			font-size: 3.5em;
+			transition-duration: 0.5s;
+			transition-property: all;
+		}
+		.overlay {
+			transition-delay: 0.4s;
+		}
+	}
+}//Ends
+
+}

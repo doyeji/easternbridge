@@ -1,0 +1,38 @@
+
+//stylesheets/
+//|
+//|-- modules/              # Common modules
+//|   |-- _all.scss         # Include to get all modules
+//|   |-- _utility.scss     # Module name
+//|   |-- _color.scss      # Etc...
+//|   ...
+//|
+//|-- partials/             # Partials
+//|   |-- _base.scss        # imports for all mixins + global project variables
+//|   |-- _buttons.scss     # buttons
+//|   |-- _figures.scss     # figures
+//|   |-- _grids.scss       # grids
+//|   |-- _typography.scss  # typography
+//|   |-- _reset.scss       # reset
+//|   ...
+//|
+//|-- vendor/               # CSS or Sass from other projects
+//|   |-- _colorpicker.scss
+//|   |-- _jquery.ui.core.scss
+//|   ...
+//|
+//`-- main.scss            # primary Sass file
+
+@import "partials/colour";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/all";
+
+@import "partials/homepage";
+@import "partials/main-pages";
+@import "partials/about-page";
+@import "partials/footer";
+
+@import "partials/animations";
+
+
