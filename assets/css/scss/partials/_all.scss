@@ -4,6 +4,7 @@
 }
 a {
 	text-decoration: none;
+	display: inline-block;
 }
 
 .image-box {
@@ -15,4 +16,19 @@ a {
 .dotted-underline {
 	text-decoration: none;
 	border-bottom: 1px dotted $main-red;
+}
+
+.section-image {
+	overflow: hidden;
+	background-color: $eb-darkgrey;
+
+}
+
+.section-logo {
+	background-color: $main-red;
+	display: inline-block;
+	h3 {
+			color: $eb-snowhite;
+			margin: 0 auto;
+	}	
 }

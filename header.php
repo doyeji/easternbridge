@@ -45,9 +45,13 @@
         <a href="index.php">home</a>
 
         <a href="asia-ready.php">aisa-readiness</a>
+        <a href="for-business.php">aisa-readiness for business</a>
+        
         <a href="nz-readiness.php">NZ-readiness</a>
 
         <a href="about.php">About us</a>
+        <a href="contact.php">Contact</a>
+
 
     </div>
 

@@ -6,7 +6,7 @@ Homepage Style
 //header
 .home-header {
 
-	height: 650px;
+	height: 750px;
 	background-color: orange;
 	.background-image {
 		position: relative;
@@ -75,7 +75,7 @@ Homepage Style
 		height: 560px;
 		padding: 0;
 		h2 {
-			font-size: 2.6em;
+			font-size: 2.3em;
 		}
 	}
 	.ready-wrap {
@@ -96,9 +96,11 @@ Homepage Style
 		transition-duration: 0.5s;
 
 		background-color: $red-alpha-80;
-		padding: 110px 50px;
+		padding: 155px 35px;
 		.text {
-			margin-top: 50px;
+			font-size: 1.6em;
+			margin-top: 25px;
+			margin-bottom: 35px;
 		}
 		
 	} //overlay
@@ -114,11 +116,13 @@ Homepage Style
 
 	}
 	.title-box {
+		min-width: 550px;
 		display: inline-block;
 		background-color: $main-red;
 		padding: 25px 35px;
 	}
 	.title-box-sub {
+		min-width: 400px;
 		display: inline-block;
 		color: $eb-black;
 		padding: 25px 35px;
@@ -144,7 +148,7 @@ Homepage Style
 
 //Case Study
 .featured-case-study {
-	height: 485px;
+	height: 435px;
 	.section-image,
 	.main-content {
 		height: 100%
@@ -154,47 +158,120 @@ Homepage Style
 		padding: 0;
 		zoom: 1%;
 		position:relative;
+		width: 35%;
+		float: right;
+		display: inline-block;
 		img {
-			min-width: 100%;
-			min-height: 100%;
-			width: auto;
-			height: auto;
+			width: 100%;
+			height: 100%;
+			// width: auto;
+			// height: auto;
 			position: absolute;
 			right:0;
 			top: 0;
 		}
 	}
 	.main-content {
+		width: 65%;
+		padding: 0 35px;
+		display: inline-block;
 		position: relative;
+		background-color: $eb-falewhite;
+		// width: 
 	}
 	.section-logo {
 		background-color: $main-red;
 		position: absolute;
 		top: 0;
 		left: 0;
-		width: 170px;
-		height: 60px;
-		padding: 17px 20px;
+		width: 150px;
+		height: 50px;
+		padding: 14px 16px;
 		h3 {
-			color: $eb-snowhite;
+			font-size: 1.5em;
 		}
 	}
 	.section-content {
-		margin-top: 100px;
-		padding-right: 80px;
+		margin-top: 90px;
+		// padding-right: 25px;
 		h1 {
-			font-size: 3.5em;
-			margin-bottom: 35px;
+			font-size: 3.2em;
+			margin-bottom: 25px;
 		}
 		.body-text {
 			margin-bottom: 25px;
 		}
 		.btn-black {
-			font-size: 1.5em;
+			font-size: 1.4em;
+			// position: absolute;
+			// bottom: 35px;
+			// left: 15px;
 		}
 	}
 }
 //Case Study ENDs
+
+// Blog Featured
+.blog-featured{
+	margin-bottom: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	.section-logo {
+		padding: 5px 10px;
+		border-radius: 3px;
+		margin: 5px;
+		margin-left: 0;
+		margin-bottom: 10px;
+
+		h3 {
+			font-size: 1em;
+			letter-spacing: 1px;
+		}
+	}
+	.section-header {
+		padding: 50px 0;
+	
+	}
+	.post-wrapper {
+		padding: 0;
+		// padding-right: 65px;
+		// border-left: 10px solid $main-red;
+	}
+
+	.post-wrapper:hover img {
+		opacity: 1;
+		transition-property: all;
+		transition-duration: 0.3s;
+	}
+
+	.inner-wrap {
+		padding: 15px 25px 15px;
+	}
+
+	.section-image {
+		width: 85%; 
+		height: 250px;
+		background-color: $eb-darkgrey;
+		margin: 0 25px;
+		img {
+
+			opacity: 0.6;
+			width: 100%;
+			height: auto;
+			transition-property: opacity;
+			transition-duration: 0.3s;
+		}
+		
+	}
+
+	.post-title {
+		margin-bottom: 15px;
+	}
+	.post-excerpt {
+		margin-bottom: 25px;
+	}
+}
+// Blog Featured ENDs
 
 
 }

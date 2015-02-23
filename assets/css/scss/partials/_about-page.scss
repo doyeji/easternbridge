@@ -11,6 +11,38 @@ About us
 .section-description {
 	margin-right: 100px;
 }
+
+.section-wrapper {
+	display: block;
+	float: none;
+}
+
+//people profiles
+#people-profile {
+	margin: 60px auto;
+	width: 90%;
+	.person {
+		// width: 
+	}
+	.person-photo {
+		display: inline-block;
+		float: left;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+
+
+
 }
 
 

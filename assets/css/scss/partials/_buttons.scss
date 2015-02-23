@@ -63,3 +63,27 @@
 		text-decoration: none;
 	}
 }
+
+
+.btn-red {
+	border: 3px solid $main-red;
+	padding: 8px 25px;
+	border-radius: 3px;
+	transition-property: all;
+	transition-duration: 0.3s;
+	a {
+		color: $main-red;
+		font-family: $eb-serif;
+		font-weight: 800;
+	}
+}
+
+.btn-red:hover {
+	transition-property: all;
+	transition-duration: 0.3s;
+	background-color: $main-red;
+	a {
+		color: $eb-snowhite;
+		text-decoration: none;
+	}
+}

@@ -35,7 +35,7 @@
 	}
 	.jumbo-title {
 		line-height: 34px;
-		margin-bottom: 15px;
+		margin-bottom: 8px;
 	}
 	p {
 		@include sans-400(1.7em);
@@ -47,7 +47,7 @@
 //description
 .description {
 	.wrapper {
-		padding: 65px 50px;
+		padding: 100px 50px;
 		padding-right: 250px;		
 	}
 }
@@ -75,7 +75,9 @@
 		padding-left: 50px;
 		border-left: 22px solid $main-red;
 	}
-
+	.our-people {
+		display: block;
+	}	
 }
 
 #asia-ready-page {

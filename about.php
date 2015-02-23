@@ -69,6 +69,35 @@
 				</div>
 			</div>
 			<!-- 03.Our Goal Ends-->
+			<!-- 04.Our People -->
+			<div class="section our-people clearfix">
+				<div class="section-wrapper">
+					<div class="section-title">
+						<h1><span class="grey-text">04.</span>Our People</h1>
+					</div>
+			
+				</div>
+				<!-- People profiles-->
+				<div id="people-profile">
+					<div class="person">
+						<div class="item-content">
+							<div class="person-details">
+								<div class="person-photo">
+									<img src="http://lorempixel.com/200/200/business"  alt="">
+								
+								</div>
+									<h3 class="person-name">Simon Appleton</h3>
+									<span class=" person-title">Founder & Director</span>
+								<p class="body-text">Simon formed Eastern Bridge after working in Local Government and seeing the disconnect between provincial New Zealand and our rapidly growing regional neighbour, Asia. Simon has lived for over a decade in Asia, including seven years in Beijing and three in Seoul. Simon can speak Mandarin Chinese and conversational Korean. During his time in China Simon graduated from Renmin University majoring in Chinese Law, and worked for Daxing Television and China Central Television. Simon also established his own consulting firm which assisted non-Chinese education companies enter the Chinese market.  After returning to New Zealand Simon worked for the Opotiki District Council as the Economic Development Officer, and was seconded to the Eastern Bay Economic Development Agency. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- People profiles-->
+			</div>
+
+			<!-- 04. our people Ends-->
+
 	</div>
 
 </div>

@@ -30,11 +30,11 @@ $eb-sans: 'Raleway', sans-serif; //800, 400
 }
 
 .jumbo-title {
-	@include serif-700(3.8em);
+	@include serif-700(3.5em);
 }
 
 .intro-text {
-   	@include sans-400(2.1em);
+   	@include sans-400(2em);
 }
 .intro-text-sm {
    	@include sans-400(1.4em);
@@ -72,4 +72,22 @@ a {
 a:hover {
 	color: $main-red;
 	text-decoration: none;
+}
+
+.text-highlight {
+	color: $eb-darkgrey;
+}
+.post-date {
+	color: $eb-lightgrey;
+}
+.post-excerpt {
+   	@include sans-400(1.3em);
+}
+.post-title {
+	a {
+		color: $eb-darkgrey;
+	}
+	a:hover {
+		color: $main-red;
+	}
 }
